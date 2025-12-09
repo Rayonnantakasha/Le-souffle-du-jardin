@@ -1,6 +1,7 @@
 import CareScale from './CareScale'
 import '../styles/PlantItm.css'
 
+
 function PlantItem({ id, cover, name, water, light }) {
     return (
         <li key={id} className='lmj-plant-item'>
