@@ -55,8 +55,10 @@ function ShoppingList({ cart, updateCart }) {
                                 price={price}
                             />
                             <button onClick={() => addToCart(name, price)}>Ajouter</button>
+                            
                         </div>
                     ) : null
+                    
                 )}
             </ul>
         </div>
