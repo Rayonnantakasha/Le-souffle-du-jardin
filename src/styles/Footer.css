@@ -1,14 +1,70 @@
 .lmj-footer {
-    color: black;
-    padding: 32px;
-    border-top: solid 3px black;
+    background-color: #1f3d2b;
+    color: #f1f7f3;
+    padding: 40px 20px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.lmj-footer-content {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Branding */
+.lmj-footer-brand h3 {
+    margin-bottom: 10px;
+    color: #9fe3b2;
+}
+
+.lmj-footer-brand p {
+    max-width: 350px;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* Newsletter */
+.lmj-footer-newsletter label {
+    display: block;
+    margin-bottom: 10px;
     font-weight: 500;
 }
 
-.lmj-footer-elem {
-    margin-bottom: 10px;
+.lmj-footer-input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.lmj-footer-input-group input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    width: 220px;
+}
+
+.lmj-footer-input-group button {
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: #9fe3b2;
+    color: #1f3d2b;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.lmj-footer-input-group button:hover {
+    background-color: #7fcf9c;
+}
+
+/* Bas du footer */
+.lmj-footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.85rem;
+    opacity: 0.7;
 }
