@@ -11,3 +11,21 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-color {
+    background-color: #31b472;
+    color : white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    font-weight: 500;
+    box-shadow:
+    0 10px 15px -3px#31b472,
+    0 4px 6px -4px#31b472;
+    cursor: pointer;
+}
+
+
+.btn-add-cart{
+    margin: 0 10px;
+}
