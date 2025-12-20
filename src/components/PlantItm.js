@@ -15,6 +15,7 @@ function PlantItem({ cover, name, water, light, price }) {
                 <CareScale careType='water' scaleValue={water} />
                 <CareScale careType='light' scaleValue={light} />
             </div>
+            
         </li>
     )
 }
