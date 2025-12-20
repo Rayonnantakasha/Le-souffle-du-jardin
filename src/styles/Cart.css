@@ -1,6 +1,6 @@
 .lmj-cart {
     color: white;
-    background-color: #31b572;
+    background-color: #1f3d2b;
     padding: 32px;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,7 @@
 .lmj-cart-add-button {
     margin-left: 32px;
     cursor: pointer;
+
 }
 
 .lmj-cart-toggle-button {
@@ -21,7 +22,7 @@
     cursor: pointer;
     align-self: self-start;
     padding: 0;
-    color: white;
+    color: #9fe3b2;
 }
 
 .lmj-cart-closed {
