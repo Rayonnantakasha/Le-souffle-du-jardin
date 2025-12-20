@@ -15,19 +15,42 @@ function Footer() {
     }
 
     return (
-        <footer className='lmj-footer'>
-            <div className='lmj-footer-elem'>
-                Pour les passionné·e·s de plantes 🌿🌱🌵
+    <footer className="lmj-footer">
+        <div className="lmj-footer-content">
+            
+            {/* Branding */}
+            <div className="lmj-footer-brand">
+                <h3>Le souffle du jardin 🌿</h3>
+                <p>Pour les passionné·e·s de plantes, de nature et de bien-être.</p>
             </div>
-            <div className='lmj-footer-elem'>Laissez-nous votre mail :</div>
-            <input
-                placeholder='Entrez votre mail'
-                onChange={handleInput}
-                value={inputValue}
-                onBlur={handleBlur}
-            />
-        </footer>
-    )
+
+            {/* Newsletter */}
+            <div className="lmj-footer-newsletter">
+                <label htmlFor="email">
+                    Recevez nos conseils verts 🌱
+                </label>
+                <div className="lmj-footer-input-group">
+                    <input
+                        id="email"
+                        type="email"
+                        placeholder="Entrez votre email"
+                        onChange={handleInput}
+                        value={inputValue}
+                        onBlur={handleBlur}
+                    />
+                    <button>S’inscrire</button>
+                </div>
+            </div>
+
+        </div>
+
+        {/* Bas du footer */}
+        <div className="lmj-footer-bottom">
+            © {new Date().getFullYear()} Le souffle du jardin — Tous droits réservés
+        </div>
+    </footer>
+)
 }
+
 
 export default Footer
