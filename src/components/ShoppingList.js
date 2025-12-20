@@ -46,7 +46,7 @@ function ShoppingList({ cart, updateCart }) {
                 {/*Si aucune catégorie sélectionnée → tout afficher, Sinon → afficher uniquement les plantes correspondant à activeCategory*/}
                 {plantList.map(({ id, cover, name, water, light, price, category }) =>
                     !activeCategory || activeCategory === category ? (
-                        <div key={id}>
+                        <div key={id} className='lmj-plant'>
                             <PlantItem
                                 cover={cover}
                                 name={name}
@@ -54,8 +54,7 @@ function ShoppingList({ cart, updateCart }) {
                                 light={light}
                                 price={price}
                             />
-                            <button onClick={() => addToCart(name, price)}>Ajouter</button>
-                            
+                             <button onClick={() => addToCart(name, price)} className='btn-color btn-add-cart'>Ajouter</button>
                         </div>
                     ) : null
                     

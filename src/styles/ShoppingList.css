@@ -6,6 +6,14 @@
     list-style-type: none;
     padding: 32px;
     display: flex;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.lmj-plant {
+    padding:0 0 25px 0;
+    border: 1px solid #d4fae7;
+    border-radius: 20px;
+    box-shadow: #d4fae7 0px 10px 20px;
 }
