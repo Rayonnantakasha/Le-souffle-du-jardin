@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Snowfall from 'react-snowfall'
 import './styles/index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
@@ -7,6 +8,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Snowfall 
+     color = "#9fe3b2"
+    />
     <App />
   </React.StrictMode>
 );
